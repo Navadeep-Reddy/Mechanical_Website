@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: url("two.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+body .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 420px;
+    height: 390px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255, 0.3);
+}
+
+.wrapper h1{
+    margin: 20px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.wrapper .input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background: transparent;
+    height: 150px;
+}
+
+.input-box input{
+    box-sizing: border-box;
+    width: 320px;
+    margin: 10px 0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, 0.3);
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.wrapper .sign-up{
+    display: flex;
+    justify-content: center;
+
+    width: 330px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.remember-forgot input{
+    accent-color: orange;
+}
+
+
+
+
+
+
