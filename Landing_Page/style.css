@@ -5,30 +5,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb( 10, 10, 10);
 
 }
 
-
 body{
-    background: lightblue;
+    background: whitesmoke;
+    margin-top: 70px;
+    height: 100vh;
 }
 
 .header{
     position: fixed;
-    background: yellow;
+    background: transparent;
     width: 100%;
-    height: 40px;
+    height: 70px;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border-bottom: 1px solid transparent;
 }
 
 .logo{
-    background: red;
-    width: 250px;
+    background: transparent;
+    width: 300px;
     font-size: 25px;
     text-decoration: none;
     font-weight: 600;
@@ -36,12 +39,16 @@ body{
 
 }
 
+.logo:hover{
+    color: #3e3ec4;
+}
+
 .navbar{
     padding: 20px;
-    display: flex;
-    background: orange;
+    display: inline-flex;
+    background: transparent;
     height: 100%;
-    width: 250px;
+    width: 300px;
     justify-content: space-between;
     align-items: center;
 }
@@ -50,8 +57,83 @@ body{
     text-decoration: none;
 }
 
+.navbar a:hover,
+.navbar a.active
+{
+    color:#3e3ec4;
+}
+
 .icons{
-    background: white;
-    width: 250px;
-    font-size: 20px;
+    background: transparent;
+    width: 300px;
+    font-size: 26px;
+    padding-left: 230px;
+
+}
+
+.icons a{
+    display: inline-block;
+    color: red;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transform: rotate(45deg);
+    border: 1px solid transparent;
+}
+
+.icons a:hover{
+    border: 1px solid #3e3ec4;
+}
+
+.icons a i{
+    transform: rotate(-45deg);
+    color: #fc3b3b;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body .home-content{
+    background: transparent;
+    width: 820px;
+    height: 520px;
+    padding: 10px 10px 10px 10px;
+    margin-right: 40%;
+    margin-top: -100px;
+}
+
+.home-content h1{
+    font-size: 50px;
+
+}
+
+.home-content h3{
+    color: #3e3ec4;
+    font-size: 25px;
+
+}
+
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 30px;
+    font-weight: 405;
+}
+
+
+button.request{
+    margin: 0;
+    width: 200px;
+    padding: 10px;
+    font-weight: 600;
+    background: #3e3ec4;
+    border-radius: 40px;
+    color: white;
+    border: none;
 }
