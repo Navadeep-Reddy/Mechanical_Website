@@ -82,7 +82,7 @@ body{
 }
 
 .icons a:hover{
-    border: 1px solid #3e3ec4;
+    border: 1px solid white;
 }
 
 .icons a i{
@@ -95,7 +95,7 @@ body{
     height: 100%;
     display: flex;
     background: transparent;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -104,8 +104,7 @@ body .home-content{
     background: transparent;
     width: 820px;
     height: 520px;
-    padding: 10px 10px 10px 10px;
-    margin-right: 40%;
+    padding: 10px 10px 10px 10px;   
     margin-top: -100px;
 }
 
@@ -133,7 +132,59 @@ button.request{
     padding: 10px;
     font-weight: 600;
     background: #3e3ec4;
+    border: 2px solid #3e3ec4;
     border-radius: 40px;
     color: white;
-    border: none;
+    transition: 0.2s;
 }
+
+button.request:hover{
+    background: white;
+    color: #3e3ec4;
+    border: 2px solid black;
+
+}
+
+button.request:active{
+    background: black;
+}
+
+.Image{
+    position: relative;
+    background: transparent;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-right: -150px;
+}
+
+.rhombus{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    border: solid 20px #3e3ec4;
+    transform: rotate(45deg);
+    background: whitesmoke;
+}
+
+.rhombus img{
+    display: block;
+    position: fixed;
+    transform: rotate(-45deg);
+    max-width: 600px;
+    
+}
+
+.rhombus2{
+    position: absolute;
+    background: #3e3ec4;
+    width: 700px;
+    height: 700px;
+    z-index: -1;
+    transform: rotate(45deg);
+    top: -90%;
+    right: -80%;
+}
+
