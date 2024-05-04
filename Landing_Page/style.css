@@ -73,7 +73,7 @@ body{
 
 .icons a{
     display: inline-block;
-    color: red;
+    color: whitesmoke;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -87,7 +87,7 @@ body{
 
 .icons a i{
     transform: rotate(-45deg);
-    color: #fc3b3b;
+    color: whitesmoke;
 }
 
 .home{
@@ -167,6 +167,7 @@ button.request:active{
     border: solid 20px #3e3ec4;
     transform: rotate(45deg);
     background: whitesmoke;
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.596);
 }
 
 .rhombus img{
@@ -174,7 +175,6 @@ button.request:active{
     position: fixed;
     transform: rotate(-45deg);
     max-width: 600px;
-    
 }
 
 .rhombus2{
@@ -184,7 +184,7 @@ button.request:active{
     height: 700px;
     z-index: -1;
     transform: rotate(45deg);
-    top: -90%;
-    right: -80%;
+    top: -70%;
+    right: -50%;
 }
 
