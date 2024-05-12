@@ -161,7 +161,7 @@ body{
     padding: 0 15px;
     width: 15%;;
     height: 7%;
-    margin-top: 8px;
+    margin-top: 10px;
     color: whitesmoke;
     background: black;
     border: 2px solid black;
@@ -179,6 +179,19 @@ body{
     background: black;
 }
 
+
+.request .date{
+    animation: slideDown 0.5s ease-in;
+    margin: 10px 0 15px 0;
+}
+
+.request .date input{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3px;
+    font-family: sans-serif;
+}
+
 .request .boxy{
     display: flex;
     flex-direction: row;
@@ -190,6 +203,8 @@ body{
 #emergency{
     margin: 0 5px;
 }
+
+
 .request .boxy p,
 .request #emergency
 {
