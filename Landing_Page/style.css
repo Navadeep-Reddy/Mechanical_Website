@@ -180,7 +180,7 @@ button.request:active{
     position: fixed;
     transform: rotate(-45deg);
     max-width: 600px;
-    animation: Bike 0.7s ease-in;
+    animation: Bike 0.55s ease-in;
 }
 
 .rhombus2{

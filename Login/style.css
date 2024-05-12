@@ -20,7 +20,7 @@ body .wrapper{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: -170px;
     background: rgb(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     width: 420px;
