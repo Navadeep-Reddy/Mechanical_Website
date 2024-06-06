@@ -9,10 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <td>${service}</td>
             <td>${registrationNo}</td>
             <td>${date}</td>
-            <td>
+            <td class = "center-button">
                 <div class="order-actions">
-                    <button class="reschedule">Reschedule</button>
-                    <form action="/submit" method="post">
+                    <form action="/submit" method="post" >
                         <button type="submit" class="completed">Completed</button>
                     </form>
                 </div>
@@ -20,10 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         orderList.appendChild(row);
 
-        // Add event listener to "Reschedule" button
-        row.querySelector('.reschedule').addEventListener('click', function() {
-            alert('Reschedule clicked');
-        });
     }
 
     addOrder('Newbie', 'Motorcycle', 'Puncture', 'TN2332', '2024-05-27');

@@ -100,3 +100,10 @@ th {
 .reschedule:hover {
     background: #e0a800;
 }
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
